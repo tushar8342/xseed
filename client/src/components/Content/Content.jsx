@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import english from "../../assests/images/english-speech.png"
 import funfact from "../../assests/images/funfact.jpg"
 import ReactPlayer from "react-player";
+import Quiz from "../Quiz/Quiz";
 // import CourseCard from "../Courses-section/CourseCard";
 
 const videoData = [
@@ -158,13 +159,9 @@ const Content = () => {
               {/* start tab 3*/}
               <div className={showtab === 3 ? "tab-pane fade show active" : "tab-pane fade"} >
 
+                <Quiz />
 
-                <p>
-                  Name: <input type="text" name='username' className='form-control' />
-                </p>
-                <p>
-                  <button className='btn btn-primary'>Start QuiZ</button>
-                </p>
+
               </div>
               {/* close tab 3*/}
 
