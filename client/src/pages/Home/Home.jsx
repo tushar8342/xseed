@@ -6,26 +6,23 @@ import HeroSection from "../../components/Hero-Section/HeroSection";
 import AboutUs from "../../components/About-us/AboutUs";
 import Courses from "../../components/Courses-section/Courses";
 import ChooseUs from "../../components/Choose-us/ChooseUs";
-import Features from "../../components/Feature-section/Features";
 import FreeCourse from "../../components/Free-course-section/FreeCourse";
 
 import Testimonials from "../../components/Testimonial/Testimonials";
 
-import Newsletter from "../../components/Newsletter/Newsletter";
+import Content from "../../components/Content/Content";
 import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
     <Fragment>
       <Headers />
+      <Content />
       <Courses />
       <HeroSection />
       <AboutUs />
       <ChooseUs />
-      <Features />
-      <FreeCourse />
       <Testimonials />
-      <Newsletter />
       <Footer />
     </Fragment>
   );

@@ -9,6 +9,7 @@ const User = require("./models/user.model")
 const { signup, login } = require("./controllers/auth.controller")
 
 const postController = require("./controllers/post.controller")
+const courseController = require("./controllers/course.controller")
 require("dotenv").config()
 
 const app = express()
@@ -33,7 +34,7 @@ app.post(
     login
 )
 
-
+app.use("/courses", courseController)
 app.use("/posts", postController)
 
 app.get("/users", async (req, res) => {

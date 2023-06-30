@@ -1,36 +1,36 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-import courseImg1 from "../../assests/images/web-design.png";
-import courseImg2 from "../../assests/images/graphics-design.png";
-import courseImg3 from "../../assests/images/ui-ux.png";
+import courseImg1 from "../../assests/images/courseImg1.jpeg";
+import courseImg2 from "../../assests/images/courseImg2.jpg";
+import courseImg3 from "../../assests/images/courseImg3.jpeg";
 import "./courses.css";
 import CourseCard from "./CourseCard";
 
 const coursesData = [
   {
     id: "01",
-    title: "Web Design BootCamp-2022 for Beginners",
-    lesson: 12,
-    students: 12.5,
-    rating: 5.9,
+    title: "Short Stories for Kids: Guide for Teachers & Parents",
+    lesson: 10,
+    students: 22.3,
+    rating: 7.7,
     imgUrl: courseImg1,
   },
 
   {
     id: "02",
-    title: "Professional Graphics Design, PhotoShop, Adobe XD, Figma",
+    title: "Social Studies for Kids",
     lesson: 12,
-    students: 12.5,
-    rating: 5.9,
+    students: 18.57,
+    rating: 6.0,
     imgUrl: courseImg2,
   },
 
   {
     id: "03",
-    title: "UI/UX BootCamp for Beginners in 2022",
-    lesson: 12,
-    students: 12.5,
-    rating: 5.9,
+    title: "Flashcards for Kids",
+    lesson: 14,
+    students: 10.5,
+    rating: 7.9,
     imgUrl: courseImg3,
   },
 ];
@@ -51,9 +51,6 @@ const Courses = () => {
                 </p>
               </div>
 
-              <div className="w-50 text-end">
-                <button className="btn">See All</button>
-              </div>
             </div>
           </Col>
           {coursesData.map((item) => (
