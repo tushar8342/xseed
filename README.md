@@ -10,8 +10,8 @@ Ed-Tech Wonderland is built using the MERN (MongoDB, Express.js, React.js, Node.
 <h3>Getting Started</h3>
 To get started with Ed-Tech Wonderland, follow these steps:
 
-Clone the repository: git clone https://github.com/tushar8342/xseed.git
-Install the necessary dependencies: npm install
-Configure the environment variables.
-Run the development server: npm start
-Access the application on your preferred web browser: http://localhost:3000
+Clone the repository: git clone https://github.com/tushar8342/xseed.git  </br>
+Install the necessary dependencies: npm install </br>
+Configure the environment variables.</br>
+Run the development server: npm start</br>
+Access the application on your preferred web browser: http://localhost:3000 </br>
